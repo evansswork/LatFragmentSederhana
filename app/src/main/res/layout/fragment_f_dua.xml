@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fDua">
+    tools:context=".fDua"
+    android:background="#FEE2AD"
+    android:padding="16dp">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/tvJudul"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="Fragment fDua" />
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data dari Fragment 1" />
+
+    <Button
+        android:id="@+id/btnOpenFDua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buka Fragment 1" />
+
+</FrameLayout>
