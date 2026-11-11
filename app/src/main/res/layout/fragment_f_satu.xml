@@ -3,22 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="#98C09C"
     android:padding="16dp"
     tools:context=".fSatu">
 
     <TextView
+        android:id="@+id/tvJudul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvJudul"
         android:text="FRAGMENT SATU"
         android:gravity="center"
         android:textStyle="bold"/>
-    
+
     <Button
+        android:id="@+id/btnOpenFSatu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnOpenFSatu"
+        android:layout_marginTop="16dp"
         android:text="OPEN FRAGMENT DUA"/>
 
 </LinearLayout>
